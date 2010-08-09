@@ -8,6 +8,11 @@ Parameters are specified in the following order:
 * easting
 * zone
 
+Install
+-------
+
+    gem install coordinate-converter
+
 Example
 -------
 
