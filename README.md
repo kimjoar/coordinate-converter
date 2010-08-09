@@ -1,13 +1,6 @@
 Converting UTM to Latitude and Longitude
 ========================================
 
-Parameters are specified in the following order:
-
-* reference_ellipsoid
-* northing
-* easting
-* zone
-
 Install
 -------
 
@@ -18,6 +11,13 @@ Example
 
     Coordinates.utm_to_lat_long("WGS-84", 6688940, 219165, "33N")
     # => {:lat => 60.2399303597183, :long => 9.92496237547609}
+
+Parameters are specified in the following order:
+
+* reference_ellipsoid
+* northing
+* easting
+* zone
 
 Supported ellipsoids
 --------------------
